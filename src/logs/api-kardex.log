@@ -1,0 +1,16 @@
+2020-03-18 15:27:34 info: [/kardex/precio/producto] request succedd
+2020-03-18 15:31:45 info: [/kardex/precio/producto] request succedd.
+2020-03-18 15:31:57 info: [/kardex/item/add] request succedd.
+2020-03-18 15:32:03 info: [/kardex/:timestamp/update] request succedd.
+2020-03-18 16:01:37 info: [/kardex/precio/producto] request succedd.
+2020-03-18 16:05:29 info: [/kardex/precio/producto] request succedd.
+2020-03-18 16:06:33 info: [/kardex/precio/producto] request succedd.
+2020-03-18 16:09:34 info: [/kardex/item/add] request succedd.
+2020-03-18 16:23:34 info: [/kardex/:timestamp/update] error: Error: ER_TRUNCATED_WRONG_VALUE: Incorrect datetime value: ':timestamp' for column 'event_timestamp' at row 1
+2020-03-18 16:27:58 info: [/kardex/:timestamp/update] error: Error: ER_TRUNCATED_WRONG_VALUE: Incorrect datetime value: ':timestamp' for column 'event_timestamp' at row 1
+2020-03-18 16:28:19 info: [/kardex/:timestamp/update] request succedd.
+2020-03-18 16:28:59 info: [/kardex/:timestamp/update] error: Error: ER_TRUNCATED_WRONG_VALUE: Incorrect datetime value: ':timestamp' for column 'event_timestamp' at row 1
+2020-03-18 16:29:53 info: [/kardex/:timestamp/update] error: Error: ER_TRUNCATED_WRONG_VALUE: Incorrect datetime value: ':timestamp' for column 'event_timestamp' at row 1
+2020-03-18 16:31:38 info: [/kardex/:timestamp/update] error: Error: ER_TRUNCATED_WRONG_VALUE: Incorrect datetime value: ':timestamp' for column 'event_timestamp' at row 1
+2020-03-18 16:33:01 info: [/kardex/:timestamp/update] request succedd.
+2020-03-18 16:33:24 info: [/kardex/:timestamp/update] request succedd.
