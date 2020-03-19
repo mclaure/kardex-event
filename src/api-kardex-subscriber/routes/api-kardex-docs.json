@@ -1,0 +1,175 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "version": "1.0.0",
+      "title": "API Services",
+      "description": "Simple Kardex API services"
+    },
+    "basePath": "/",
+    "tags" : [
+      {"name": "KARDEX", 
+      "description": "List of available methods"
+      }
+    ],
+    "schemes": [
+      "http"
+    ],
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ],
+    "paths": {
+      "/kardex/item/add": {
+         "post": {
+            "tags": ["KARDEX"],
+            "description": "Add a new Item to the Kardex ",
+            "operationId": "for the URL",
+            "produces": [
+              "application/json"
+            ],
+            "parameters": [
+                {
+                  "name": "Item",
+                  "in": "body",
+                  "description": "Informacion del Item",
+                  "required": true,
+                "schema": {
+                  "$ref": "#/definitions/addItem"
+                  }
+              }                                                                                        
+            ],
+            "responses": {
+              "200": {
+                "description": "Kardex Response",
+                "schema": {
+                   "$ref": "#/definitions/createItem"
+                }
+              }
+            }
+          }
+      },
+      "/kardex/{timestamp}/update": {
+          "put":{
+            "tags":["KARDEX"],
+            "description":"Updates Kardex information",
+            "operationId":"for the URL",
+            "produces": [
+              "application/json"
+            ],
+            "parameters":[
+                {
+                  "name": "timestamp",
+                  "in": "path",
+                  "description": "kardex's timestamp event to update",
+                  "required": true,
+                  "type": "string"              
+                },
+                {
+                  "name": "itemToUpdate",
+                  "in": "body",
+                  "description": "Informacion del Item",
+                  "required": true,
+                "schema": {
+                  "$ref": "#/definitions/addItem"
+                  }
+                }                  
+              ],
+            "responses": {
+              "200": {
+                "description": "Update Item response",
+                "schema":{
+                  "$ref":"#/definitions/updateItem"
+                }
+              }
+            }
+          } 
+        },
+        "/kardex/precio/producto": {
+            "get":{
+                "tags": [ "KARDEX"],
+                "description": "Returns product information",
+                "operationId": "list",
+                "produces": [
+                  "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "description": "Products's ID",
+                        "required": true,
+                        "type": "integer"
+                    }
+                 ],
+              "responses": {
+                  "200": {
+                    "description": "response",
+                    "schema": {
+                      "$ref": "#/definitions/productInfo"
+                    }
+                  }
+                }
+              }    
+            }    
+    },
+    "definitions": {  
+        "addItem": {
+            "properties": {
+              "idProducto": {
+                "required":true,
+                "type": "int",
+                "example": 1
+              },              
+              "cantidad": {
+                "required":true,
+                "type": "int",
+                "example": 2
+              },
+              "precio": {
+                "required":true,
+                "type":"float",
+                "example": 2.5
+              }                                                              
+            }
+        }, 
+        "productInfo": {
+            "properties": {
+              "productId": {
+                "required":true,
+                "type": "int",
+                "example": 1
+              },              
+              "productName": {
+                "required":true,
+                "type": "string",
+                "example": "Engrampadora"
+              },
+              "precioPonderado": {
+                "required":true,
+                "type":"float",
+                "example": "5.7"
+              }                                                                             
+            }
+        },                   
+    "createItem": {
+            "properties": {
+                "itemCreated": {
+                  "required": true,
+                  "type" : "boolean",
+                  "example" : "true"
+                }
+            }
+        },        
+      "updateItem": {
+          "properties": {
+              "itemUpdated": {
+                "required": true,
+                "type" : "boolean",
+                "example" : "true"
+              }
+          }
+      }
+    }
+  }

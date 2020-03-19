@@ -14,3 +14,127 @@
 2020-03-18 16:31:38 info: [/kardex/:timestamp/update] error: Error: ER_TRUNCATED_WRONG_VALUE: Incorrect datetime value: ':timestamp' for column 'event_timestamp' at row 1
 2020-03-18 16:33:01 info: [/kardex/:timestamp/update] request succedd.
 2020-03-18 16:33:24 info: [/kardex/:timestamp/update] request succedd.
+2020-03-18 21:04:00 error: uncaughtException: listen EADDRINUSE: address already in use :::9000
+Error: listen EADDRINUSE: address already in use :::9000
+    at Server.setupListenHandle [as _listen2] (net.js:1279:14)
+    at listenInCluster (net.js:1327:12)
+    at Server.listen (net.js:1414:7)
+    at Object.<anonymous> (d:\Academias\UAB\Tendencias Arquitectonicas\Tareas\Tarea 4\kardex-event\src\api-kardex-subscriber\server.js:8:8)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+2020-03-18 21:08:29 info: [/kardex/item/add] request succedd.
+2020-03-18 21:11:15 info: [/kardex/item/add] request succedd.
+2020-03-18 21:20:19 info: [/kardex/item/add] request succedd.
+2020-03-18 21:21:36 info: [/kardex/:timestamp/update] request succedd.
+2020-03-18 21:55:35 info: [/kardex/precio/producto?id=1] error: Error: connect ECONNREFUSED 127.0.0.1:5000
+2020-03-18 21:57:02 info: [/kardex/precio/producto?id=1] error: Error: connect ECONNREFUSED 127.0.0.1:5000
+2020-03-18 21:57:26 info: [/kardex/precio/producto] request succedd.
+2020-03-18 21:57:26 info: [/kardex/precio/producto?id=1] statusCode: 200
+2020-03-18 21:58:20 info: [/kardex/precio/producto] request succedd.
+2020-03-18 21:58:20 info: [/kardex/precio/producto?id=1] statusCode: 200
+2020-03-18 22:00:38 info: [/kardex/precio/producto] request succedd.
+2020-03-18 22:00:38 info: [/kardex/precio/producto?id=1] statusCode: 200
+2020-03-18 22:18:33 info: [/kardex/precio/producto] request succedd.
+2020-03-18 22:18:33 info: [/kardex/precio/producto?id=1] statusCode: 200
+2020-03-18 22:18:33 error: uncaughtException: Cannot read property '0' of undefined
+TypeError: Cannot read property '0' of undefined
+    at IncomingMessage.<anonymous> (d:\Academias\UAB\Tendencias Arquitectonicas\Tareas\Tarea 4\kardex-event\src\api-kardex-subscriber\controllers\WrapperController.js:19:46)
+    at IncomingMessage.emit (events.js:198:13)
+    at IncomingMessage.Readable.read (_stream_readable.js:504:10)
+    at flow (_stream_readable.js:973:34)
+    at resume_ (_stream_readable.js:954:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-03-18 22:19:07 info: [/kardex/precio/producto] request succedd.
+2020-03-18 22:19:07 info: [/kardex/precio/producto?id=1] statusCode: 200
+2020-03-18 22:21:01 info: [/kardex/precio/producto] request succedd.
+2020-03-18 22:21:01 info: [/kardex/precio/producto?id=1] statusCode: 200
+2020-03-18 22:27:29 info: [/kardex/precio/producto] request succedd.
+2020-03-18 22:27:29 info: [/kardex/precio/producto?id=1] statusCode: 200
+2020-03-18 22:32:47 info: [/kardex/precio/producto?id=1] error: Error: socket hang up
+2020-03-18 22:34:30 info: [/kardex/precio/producto] request succedd.
+2020-03-18 22:34:30 info: [/kardex/precio/producto?id=1] statusCode: 200
+2020-03-18 22:40:32 info: [/kardex/precio/producto] request succedd.
+2020-03-18 22:40:32 info: [/kardex/precio/producto?id=1] statusCode: 200
+2020-03-18 22:40:56 info: [/kardex/precio/producto] request succedd.
+2020-03-18 22:40:56 info: [/kardex/precio/producto?id=1] statusCode: 200
+2020-03-18 22:41:29 info: [/kardex/precio/producto] request succedd.
+2020-03-18 22:41:29 info: [/kardex/precio/producto?id=1] statusCode: 200
+2020-03-18 22:44:40 info: [/kardex/precio/producto] request succedd.
+2020-03-18 22:44:40 info: [/kardex/precio/producto?id=1] statusCode: 200
+2020-03-18 22:44:40 error: uncaughtException: argument must be a string
+TypeError: argument must be a string
+    at Buffer.write (buffer.js:899:17)
+    at IncomingMessage.<anonymous> (d:\Academias\UAB\Tendencias Arquitectonicas\Tareas\Tarea 4\kardex-event\src\api-kardex-subscriber\controllers\WrapperController.js:23:18)
+    at IncomingMessage.emit (events.js:198:13)
+    at IncomingMessage.Readable.read (_stream_readable.js:504:10)
+    at flow (_stream_readable.js:973:34)
+    at resume_ (_stream_readable.js:954:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-03-18 22:46:59 info: [/kardex/precio/producto] request succedd.
+2020-03-18 22:46:59 info: [/kardex/precio/producto?id=1] statusCode: 200
+2020-03-18 22:46:59 error: uncaughtException: The "list[0]" argument must be one of type Array, Buffer, or Uint8Array. Received type object
+TypeError [ERR_INVALID_ARG_TYPE]: The "list[0]" argument must be one of type Array, Buffer, or Uint8Array. Received type object
+    at Function.concat (buffer.js:480:13)
+    at IncomingMessage.<anonymous> (d:\Academias\UAB\Tendencias Arquitectonicas\Tareas\Tarea 4\kardex-event\src\api-kardex-subscriber\controllers\WrapperController.js:23:25)
+    at IncomingMessage.emit (events.js:198:13)
+    at IncomingMessage.Readable.read (_stream_readable.js:504:10)
+    at flow (_stream_readable.js:973:34)
+    at resume_ (_stream_readable.js:954:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-03-18 22:47:59 info: [/kardex/precio/producto] request succedd.
+2020-03-18 22:47:59 info: [/kardex/precio/producto?id=1] statusCode: 200
+2020-03-18 22:47:59 error: uncaughtException: The "list[0]" argument must be one of type Array, Buffer, or Uint8Array. Received type object
+TypeError [ERR_INVALID_ARG_TYPE]: The "list[0]" argument must be one of type Array, Buffer, or Uint8Array. Received type object
+    at Function.concat (buffer.js:480:13)
+    at IncomingMessage.<anonymous> (d:\Academias\UAB\Tendencias Arquitectonicas\Tareas\Tarea 4\kardex-event\src\api-kardex-subscriber\controllers\WrapperController.js:22:23)
+    at IncomingMessage.emit (events.js:198:13)
+    at IncomingMessage.Readable.read (_stream_readable.js:504:10)
+    at flow (_stream_readable.js:973:34)
+    at resume_ (_stream_readable.js:954:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-03-18 23:00:35 info: [/kardex/precio/producto] request succedd.
+2020-03-18 23:00:35 info: [/kardex/precio/producto?id=1] statusCode: 200
+2020-03-18 23:05:36 info: [/kardex/precio/producto] request succedd.
+2020-03-18 23:05:36 info: [/kardex/precio/producto?id=1] statusCode: 200
+2020-03-18 23:05:36 error: uncaughtException: d is not defined
+ReferenceError: d is not defined
+    at IncomingMessage.res.on.data (d:\Academias\UAB\Tendencias Arquitectonicas\Tareas\Tarea 4\kardex-event\src\api-kardex-subscriber\controllers\WrapperController.js:19:30)
+    at IncomingMessage.emit (events.js:198:13)
+    at IncomingMessage.Readable.read (_stream_readable.js:504:10)
+    at flow (_stream_readable.js:973:34)
+    at resume_ (_stream_readable.js:954:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-03-18 23:06:27 info: [/kardex/precio/producto] request succedd.
+2020-03-18 23:06:27 info: [/kardex/precio/producto?id=1] statusCode: 200
+2020-03-18 23:07:03 info: [/kardex/precio/producto] request succedd.
+2020-03-18 23:07:03 info: [/kardex/precio/producto?id=1] statusCode: 200
+2020-03-18 23:09:25 info: [/kardex/precio/producto] request succedd.
+2020-03-18 23:09:25 info: [/kardex/precio/producto?id=1] statusCode: 200
+2020-03-18 23:10:06 info: [/kardex/precio/producto] request succedd.
+2020-03-18 23:10:06 info: [/kardex/precio/producto?id=2] statusCode: 200
+2020-03-18 23:11:59 info: [/kardex/precio/producto] request succedd.
+2020-03-18 23:11:59 info: [/kardex/precio/producto?id=2] statusCode: 200
+2020-03-18 23:12:29 info: [/kardex/precio/producto] request succedd.
+2020-03-18 23:12:29 info: [/kardex/precio/producto?id=g] statusCode: 200
+2020-03-18 23:13:22 info: [/kardex/precioo/producto?id=g] statusCode: 404
+2020-03-18 23:13:22 error: uncaughtException: Unexpected token < in JSON at position 0
+SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at IncomingMessage.res.on.result (d:\Academias\UAB\Tendencias Arquitectonicas\Tareas\Tarea 4\kardex-event\src\api-kardex-subscriber\controllers\WrapperController.js:18:25)
+    at IncomingMessage.emit (events.js:198:13)
+    at IncomingMessage.Readable.read (_stream_readable.js:504:10)
+    at flow (_stream_readable.js:973:34)
+    at resume_ (_stream_readable.js:954:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020-03-18 23:13:47 info: [/kardex/precio/producto] request succedd.
+2020-03-18 23:13:47 info: [/kardex/precio/producto?id=g] statusCode: 200
+2020-03-18 23:13:51 info: [/kardex/precio/producto] request succedd.
+2020-03-18 23:13:51 info: [/kardex/precio/producto?id=1] statusCode: 200
+2020-03-18 23:13:56 info: [/kardex/precio/producto] request succedd.
+2020-03-18 23:13:56 info: [/kardex/precio/producto?id=2] statusCode: 200

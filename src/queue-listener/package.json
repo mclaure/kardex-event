@@ -1,0 +1,31 @@
+{
+  "name": "api-stats",
+  "version": "1.0.0",
+  "description": "Simple RabbitMQ Queue listener",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mclaure/kardex-event.git"
+  },
+  "keywords": [
+    "API",
+    "CRUD"
+  ],
+  "author": "Marcelo Claure",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mclaure/kardex-event/issues"
+  },
+  "homepage": "https://github.com/mclaure/kardex-event#readme",
+  "dependencies": {
+    "nodemon": "^1.19.1",
+    "amqplib": "^0.5.5",
+    "js-beautify": "^1.10.2",
+    "http": "0.0.0",
+    "winston": "^3.2.1"
+  }
+}
