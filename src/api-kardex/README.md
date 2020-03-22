@@ -26,10 +26,18 @@ mysql -u <user> -p < kardex-dump.sql
 ---
 ## Available APIs
 
-**MySQL**
 * GET     /kardex/precio/producto?id={idProducto}
+
+![get-request](https://user-images.githubusercontent.com/24611413/77260218-13502800-6c5d-11ea-8621-9d1628157517.jpg)
+
 * POST    /kardex/item/add
+
+![post-request](https://user-images.githubusercontent.com/24611413/77260271-4eeaf200-6c5d-11ea-9b69-4fd11f424b46.jpg)
+
 * PUT     /kardex/{timestamp}/update
+
+![put-request](https://user-images.githubusercontent.com/24611413/77260325-8d80ac80-6c5d-11ea-9b44-7572df843847.jpg)
+
 ---
 ## Author
 
