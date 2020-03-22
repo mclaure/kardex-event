@@ -2,7 +2,7 @@
 ```
 API solution that handles SQL requests
 ```
-![kardex-api](https://user-images.githubusercontent.com/24611413/77260002-7e98fa80-6c5b-11ea-9efb-591173cb121e.jpg)
+![kardex-api-simple](https://user-images.githubusercontent.com/24611413/77263533-ff152680-6c6e-11ea-9f49-c2bf94bb11cc.jpg)
 
 ---
 ## Installing

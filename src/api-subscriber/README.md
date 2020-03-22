@@ -2,7 +2,7 @@
 ```
 API solution that handles HTTP request into a RabbitMQ queue
 ```
-![api-subscriber](https://user-images.githubusercontent.com/24611413/77261781-6a5afa80-6c67-11ea-8015-c86a545eb14c.jpg)
+![full-architecture-subs](https://user-images.githubusercontent.com/24611413/77262474-477f1500-6c6c-11ea-9ebb-628d71372ae3.jpg)
 
 ---
 ## Installing
