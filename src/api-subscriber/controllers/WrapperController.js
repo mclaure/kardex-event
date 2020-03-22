@@ -22,6 +22,7 @@ module.exports.kardex_precio_ponderado = (response, idProducto) => {
   
   req.on('error', (e) => {
     console.error(`problem with request: ${e.message}`);
+    logger.info('[/kardex/precio/producto] erro: ' + e.message);
     response.status(400).json({error: e.message}); 
   });  
 

@@ -8,6 +8,7 @@ const wrapper = require("./WrapperController");
 exports.kardex_precio_ponderado = (req, res, next) => {
 
   let productId = req.query.id;
+  logger.info('[/kardex/precio/producto] sent to wrapper');
   wrapper.kardex_precio_ponderado(res, productId);
 };
 
@@ -21,6 +22,7 @@ var message = JSON.stringify({ operation: "add"
                               ,cantidad: cantidad
                               ,precio: precio});
 rmq.sendMessage(message);
+logger.info('[/kardex/add/item] message sent.');
 res.status(200).json( { addItem: "queued" });
 };
 
@@ -36,5 +38,6 @@ var message = JSON.stringify({ operation: "update"
                               ,cantidad: cantidad
                               ,precio: precio});
 rmq.sendMessage(message);
+logger.info('[/kardex/{timestamp}/update] message sent.');
 res.status(200).json( { updateItem: "queued" });
 };

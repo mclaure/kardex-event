@@ -32,7 +32,6 @@ API solution that handles HTTP request into a RabbitMQ queue
 
 ![put-request-subs](https://user-images.githubusercontent.com/24611413/77261532-734acc80-6c65-11ea-8358-397b478051cd.jpg)
 
---
 ## Messages
 
 * send messages
