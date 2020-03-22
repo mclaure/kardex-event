@@ -38,6 +38,8 @@ mysql -u <user> -p < kardex-dump.sql
 
 ![put-request](https://user-images.githubusercontent.com/24611413/77260325-8d80ac80-6c5d-11ea-9b44-7572df843847.jpg)
 
+Full api documentation is available at [api-docs](https://github.com/mclaure/kardex-event/tree/master/src/api-docs)
+
 ---
 ## Author
 
