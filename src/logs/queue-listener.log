@@ -1,8 +1,0 @@
-2020-03-18 21:08:29 info:  [x] kardex: {"operation":"add","idProducto":3,"cantidad":2,"precio":7.9}
-2020-03-18 21:08:29 info: [/kardex/item/add] statusCode: 200
-2020-03-18 21:11:15 info:  [x] kardex: {"operation":"add","idProducto":3,"cantidad":2,"precio":7.9}
-2020-03-18 21:11:15 info: [/kardex/item/add] statusCode: 200
-2020-03-18 21:20:19 info:  [x] kardex: {"operation":"add","idProducto":3,"cantidad":2,"precio":7.9}
-2020-03-18 21:20:19 info: [/kardex/item/add] statusCode: 200
-2020-03-18 21:21:36 info:  [x] kardex: {"operation":"update","timestamp":"20200318211115","idProducto":3,"cantidad":2,"precio":8}
-2020-03-18 21:21:36 info: [/kardex/{timestamp}/update] statusCode: 200

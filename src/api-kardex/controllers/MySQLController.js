@@ -65,12 +65,12 @@ exports.kardex_update = (req, res, next) => {
     mysqlConn.query(sql, params, function (error, rows, fields) {
         if (error)
         {
-            logger.info('[/kardex/:timestamp/update] error: ' + error);
+            logger.info('[/kardex/{timestamp}/update] error: ' + error);
             return res.status(500).send(error);
         }
         else 
         {
-            logger.info('[/kardex/:timestamp/update] request succedd.');
+            logger.info('[/kardex/{timestamp}/update] request succedd.');
             return res.json( { itemUpdated : true } );
         }
     });    

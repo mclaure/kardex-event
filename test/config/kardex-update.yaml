@@ -1,0 +1,14 @@
+config:
+  target: "http://localhost:8000"
+  processor: "../helpers/kardex-payload.js"
+  phases:    
+    - duration: 300
+      arrivalRate: 2
+      rampTo: 300
+scenarios:
+  - name: "Kardex Update"
+    flow:
+      - function: "generateRandomPayload"
+      - put:
+          url: "/kardex/{{timestamp}}/update"
+          json: "{{payload}}"

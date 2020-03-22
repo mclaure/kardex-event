@@ -1,17 +1,17 @@
-## api-crud : Poliglot API solution
+## api-kardex : Simple API solution to handle products stock using event handling aproach  
 ```
 API solution that handles SQL requests
 ```
-![Arquitectura](https://user-images.githubusercontent.com/24611413/64218588-433a0880-ce90-11e9-85c1-230cc39b27cd.jpg)
+
 ---
 ## Installing
 
 1. Download the code
 3. To install **MySQL** database:
-*  Download the **users-dump.sql** dump file from database/users.sql
+*  Download the **kardex-dump.sql** dump file from database/kardex-dump.sql
 *  Run the following command:
 ```
-mysql -u <user> -p < users.sql
+mysql -u <user> -p < kardex-dump.sql
 ```
 5. Run the following command:
 ```
@@ -19,18 +19,15 @@ mysql -u <user> -p < users.sql
 ```
 6. Run the following commnad to start the node server (default port 9000):
 ```
-    node server.js
+    npm start
 ```
 ---
 ## Available APIs
 
 **MySQL**
-* GET     /api/users/list
-* GET     /api/users/find?nickname={nickname}&nombre={nombre}
-* GET     /api/users/detail?id={id}
-* POST    /api/users/add
-* DELETE  /api/users/del/{id}
-* PUT     /api/users/update/kudos/{id}
+* GET     /kardex/precio/producto?id={idProducto}
+* POST    /kardex/item/add
+* PUT     /kardex/{timestamp}/update
 ---
 ## Author
 

@@ -1,0 +1,14 @@
+config:
+  target: "http://localhost:8000"
+  processor: "../helpers/kardex-payload.js"
+  phases:    
+    - duration: 300
+      arrivalRate: 3000
+      rampTo: 5
+scenarios:
+  - name: "Kardex Add"
+    flow:
+      - function: "generateRandomPayload"
+      - post:
+          url: "/kardex/item/add"
+          json: "{{payload}}" 
