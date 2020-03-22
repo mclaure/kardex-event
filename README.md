@@ -25,7 +25,7 @@ You can also install api-kardex documentation from [here](https://github.com/mcl
 ![npm-start-8000](https://user-images.githubusercontent.com/24611413/77261271-b9069580-6c63-11ea-9513-f6c4b072e471.jpg)
 
 ---
-## Available APIs
+## Load Test with Artillery
 
 
 ## Messages

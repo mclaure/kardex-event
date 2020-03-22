@@ -3,7 +3,7 @@ config:
   processor: "../helpers/kardex-payload.js"
   phases:    
     - duration: 300
-      arrivalRate: 3000
+      arrivalRate: 300
       rampTo: 5
 scenarios:
   - name: "Kardex Add"
