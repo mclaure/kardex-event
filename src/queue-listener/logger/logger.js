@@ -1,6 +1,6 @@
 'use strict';
 
-const filename = '../logs/queue-listener.log';
+const filename = '../api-logs/queue-listener.log';
 const path = require('path');
 const { createLogger, format, transports } = require('winston');
 const { combine, timestamp, label, prettyPrint } = format;
