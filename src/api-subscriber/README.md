@@ -1,8 +1,8 @@
-## api-subscriber : Simple API solution that register POST and PUT request into rabbitmq queue  
+## api-subscriber : Simple API solution that register requests into RabbitMQ queue  
 ```
 API solution that handles HTTP request into a RabbitMQ queue
 ```
-![kardex-api](https://user-images.githubusercontent.com/24611413/77260002-7e98fa80-6c5b-11ea-9efb-591173cb121e.jpg)
+![api-subscriber](https://user-images.githubusercontent.com/24611413/77261781-6a5afa80-6c67-11ea-8015-c86a545eb14c.jpg)
 
 ---
 ## Installing
@@ -43,6 +43,9 @@ API solution that handles HTTP request into a RabbitMQ queue
 
 ![receive-messages](https://user-images.githubusercontent.com/24611413/77261598-fbc96d00-6c65-11ea-8ce5-8068f25e126f.jpg)
 
+* api-kardex response
+
+![api-kardex-response](https://user-images.githubusercontent.com/24611413/77261793-8bbbe680-6c67-11ea-94ee-d01e77a25449.jpg)
 ---
 ## Author
 
