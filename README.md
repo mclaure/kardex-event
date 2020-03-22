@@ -1,4 +1,4 @@
-## kardex-Event : API architecture with back-pressure support to implement event handling approach
+## kardex-Event : Simple API with back-pressure support to implement event handling approach
 ```
 API architecture with back-pressure support to implement event handling approach
 ```
@@ -28,7 +28,7 @@ You can also install api-kardex documentation from [here](https://github.com/mcl
 ## Load Test
 
 1. You need to follow the Load test instructions [here](https://github.com/mclaure/kardex-event/tree/master/test)
-2. running tests
+2. Running tests
 
 ![tests-running](https://user-images.githubusercontent.com/24611413/77265015-fd009700-6c71-11ea-961f-73c8923cd0b8.jpg)
 
