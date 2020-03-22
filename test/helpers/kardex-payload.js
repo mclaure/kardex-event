@@ -50,7 +50,7 @@ module.exports = {
     payload.cantidad =  randomInt(1, 500);  
     payload.precio =  randomFloat(1.0, 10.0, 2); 
     userContext.vars.payload = payload;
-    userContext.vars.timestamp = randomTimeStamp('2020-03-17 22:45:10', '2020-03-19 21:48:53');    
+    userContext.vars.timestamp = randomTimeStamp('2020-03-22 16:50:16', '2020-03-22 19:21:49');    
     return done();
   }
 };

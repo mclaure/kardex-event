@@ -34,10 +34,7 @@ Check artillery version (prompt on administrative mode is recommended):
 ## Installing
 
 1. Download the code
-2. Run the following command:
-```
-    npm install
-```
+
 ## Run artillery Test
 
 1. Go to 'test' folder
@@ -47,6 +44,12 @@ Check artillery version (prompt on administrative mode is recommended):
     or
     artillery run -o reports\kardex-update.json config\kardex-update.yaml
 ```
+output command:
+
+![command-run](https://user-images.githubusercontent.com/24611413/77265920-697c9580-6c74-11ea-975f-bff497ef0f25.jpg)
+
+running tests:
+
 ![tests-running](https://user-images.githubusercontent.com/24611413/77265015-fd009700-6c71-11ea-961f-73c8923cd0b8.jpg)
 
 3. Generate the ouput report with the following command:
@@ -56,6 +59,10 @@ Check artillery version (prompt on administrative mode is recommended):
     artillery report reports\kardex-update.json
 ```
 ![report-output](https://user-images.githubusercontent.com/24611413/77265385-f32b6380-6c72-11ea-8871-6dcdb598796d.jpg)
+
+4. You can edit payload values into the file helpers/kardex-payload.js
+
+![edit-payload](https://user-images.githubusercontent.com/24611413/77266011-ad6f9a80-6c74-11ea-99bf-408284ad13a7.jpg)
 
 ## Author
 
