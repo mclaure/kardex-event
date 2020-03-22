@@ -2,6 +2,7 @@
 ```
 API solution that handles SQL requests
 ```
+![kardex-api](https://user-images.githubusercontent.com/24611413/77260002-7e98fa80-6c5b-11ea-9efb-591173cb121e.jpg)
 
 ---
 ## Installing
@@ -21,6 +22,7 @@ mysql -u <user> -p < kardex-dump.sql
 ```
     npm start
 ```
+![npm-start](https://user-images.githubusercontent.com/24611413/77260158-a9d01980-6c5c-11ea-8ccd-f6a6901f07eb.jpg)
 ---
 ## Available APIs
 
