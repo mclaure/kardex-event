@@ -1,36 +1,37 @@
-## api-crud : Poliglot API solution
+## api-subscriber : Simple API solution that register POST and PUT request into rabbitmq queue  
 ```
-API solution that handles SQL requests
+API solution that handles HTTP request into a RabbitMQ queue
 ```
-![Arquitectura](https://user-images.githubusercontent.com/24611413/64218588-433a0880-ce90-11e9-85c1-230cc39b27cd.jpg)
+![kardex-api](https://user-images.githubusercontent.com/24611413/77260002-7e98fa80-6c5b-11ea-9efb-591173cb121e.jpg)
+
 ---
 ## Installing
 
 1. Download the code
-3. To install **MySQL** database:
-*  Download the **users-dump.sql** dump file from database/users.sql
-*  Run the following command:
-```
-mysql -u <user> -p < users.sql
-```
-5. Run the following command:
+2. Run the following command:
 ```
     npm install
 ```
-6. Run the following commnad to start the node server (default port 9000):
+6. Run the following commnad to start the node server (default port 8000):
 ```
-    node server.js
+    npm start
 ```
+![npm-start-8000](https://user-images.githubusercontent.com/24611413/77261271-b9069580-6c63-11ea-9513-f6c4b072e471.jpg)
 ---
 ## Available APIs
 
-**MySQL**
-* GET     /api/users/list
-* GET     /api/users/find?nickname={nickname}&nombre={nombre}
-* GET     /api/users/detail?id={id}
-* POST    /api/users/add
-* DELETE  /api/users/del/{id}
-* PUT     /api/users/update/kudos/{id}
+* GET     /kardex/precio/producto?id={idProducto}
+
+![get-request-subs](https://user-images.githubusercontent.com/24611413/77261516-5adab200-6c65-11ea-8e93-82d991c0251a.jpg)
+
+* POST    /kardex/item/add
+
+![post-request-ads](https://user-images.githubusercontent.com/24611413/77261521-65954700-6c65-11ea-82a4-a211efdf0948.jpg)
+
+* PUT     /kardex/{timestamp}/update
+
+![put-request-subs](https://user-images.githubusercontent.com/24611413/77261532-734acc80-6c65-11ea-8358-397b478051cd.jpg)
+
 ---
 ## Author
 

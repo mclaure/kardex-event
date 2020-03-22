@@ -1,6 +1,6 @@
 'use strict';
 
-const filename = '../logs/api-kardex.log';
+const filename = '../api-logs/api-kardex.log';
 const path = require('path');
 const { createLogger, format, transports } = require('winston');
 const { combine, timestamp, label, prettyPrint } = format;
