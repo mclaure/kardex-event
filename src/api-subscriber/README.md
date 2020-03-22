@@ -32,6 +32,17 @@ API solution that handles HTTP request into a RabbitMQ queue
 
 ![put-request-subs](https://user-images.githubusercontent.com/24611413/77261532-734acc80-6c65-11ea-8358-397b478051cd.jpg)
 
+--
+## Messages
+
+* send messages
+
+![send-messages](https://user-images.githubusercontent.com/24611413/77261583-e48a7f80-6c65-11ea-8143-41108a663221.jpg)
+
+* receive messages on listener
+
+![receive-messages](https://user-images.githubusercontent.com/24611413/77261598-fbc96d00-6c65-11ea-8ce5-8068f25e126f.jpg)
+
 ---
 ## Author
 
